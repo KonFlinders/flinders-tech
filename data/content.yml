@@ -12,7 +12,7 @@ hero:
   # hero background image
   bg_image: '/images/background.jpg'
   # optional mobile breakpoint background
-  mobile_bg_image: 'images/gus_small.jpg'
+  mobile_bg_image: 'images/background-small.jpg'
 
 ########################### About ##################################
 about:
@@ -26,25 +26,45 @@ about:
     link: #
     icon: 'fa-download'
 
-###########################3 Experience ##############################
+########################### Experience ##############################
 experience:
   enable: true
   title: 'EXPERIENCE'
   experience_list:
-    - name: Web Developer
+    - name: Student
       company: Freelance
-      duration: '2020-Current'
-      content: I make websites.
+      duration: '2006-Current'
+      content: Seriously, when are you ever done learning?
 
-    - name: Private Detective
-      company: Psych
-      duration: '2019-2020'
-      content: Okay. This is hard to explain but I’m going to give it a shot. You and I are opening our own private detective agency.
+    - name: Tech Guy
+      company: Freelance
+      duration: '2017-Current'
+      content: Hi, Flinders speaking... Did you try turning it off and on again? - mhmm - Oh, you're running Windows; Did you try holding the power button for at least 15 seconds? It's working again? that's great. Nope - it was no problem at all, take care, bye.
 
-    - name: Pharmaceutical Salesman
-      company: South Coast Pharmaceuticals
-      duration: '2012-2018'
-      content: We are not bounty hunters, Shawn. I am a pharmaceutical salesman. And Lassiter made it very clear! He said in no uncertain terms. These are certain terms, Shawn! Certain terms!
+    - name: Plumber
+      company: Pleasant Valley Plumbing
+      duration: '2016-2021'
+      content: Little room for error, lots of room for failure, Lots of chances to learn attention to detail, carefulness, and Sherlock Holmes levels of deduction... where on earth is that blasted leak coming from anyway?!
+
+    - name: Landscaper
+      company: Freelance
+      duration: '2015-2018'
+      content: You know - mowing, weeding, sweating, bleeding. Actually, it's not that bad, never boring, often relaxing, unless of course, its springtime, your still in school, the grass is growing like wildfire, and your mower is broken.
+
+    - name: Official Student
+      company: Homeschool, Private School, Community College
+      duration: '2006 - 2020'
+      content: Three schools, three philosophies, lots of learning.
+
+    - name: Machinist
+      company: Beginnings Technology Inc
+      duration: '2012-2014'
+      content: When simple prototypes need to be machined a young person with young eyes and little to do over the summer is a great choice.
+
+    - name: PCB Assembler
+      company: Beginnings Technology Inc
+      duration: '2012-2013'
+      content: The above applies to assembling PCB prototypes as well.
 
 ############################### Skill #################################
 skill:
@@ -52,29 +72,44 @@ skill:
   title: 'SOME SKILLS'
   showpercent: false
   skill_list:
-    - name: 'React'
-      percentage: '85%'
+    - name: '3D Modeling'
+      percentage: '70%'
 
-    - name: 'Detecting'
-      percentage: '93%'
+    - name: 'Photo Editing'
+      percentage: '75%'
 
-    - name: 'Selling'
-      percentage: '25%'
+    - name: 'Building Systems'
+      percentage: '95%'
+              
+    - name: 'Linux Administration'
+      percentage: '65%'
 
-    - name: 'Yelling'
-      percentage: '100%'
+    - name: 'Networking'
+      percentage: '55%'
+
+    - name: 'Javascript, JSX'
+      percentage: '35%'
+
+    - name: 'HTML, CSS'
+      percentage: '50%'
+
+    - name: 'Rust'
+      percentage: '10%'
+
+    - name: 'Bash'
+      percentage: '20%'
 
 ######################### funfacts #############################3
 funfacts:
   enable: true
   funfacts_list:
-    - name: 'CUPS PER DAY'
+    - name: 'CUP PER DAY'
       image: 'images/icons/coffee.png'
-      count: '2'
+      count: '1'
 
-    - name: 'SITES BUILT'
-      image: 'images/icons/web-development.png'
-      count: '25'
+    - name: 'SYSTEMS BUILT'
+      image: 'images/icons/system.png'
+      count: '7'
 
     - name: 'USELESS ROW OF ICONS'
       image: 'images/icons/happy.png'
@@ -85,16 +120,24 @@ portfolio:
   enable: true
   title: 'MY WORK'
   portfolio_list:
-    - name: Hugo
-      image: 'images/portfolio/hugo.png'
+    - name: Poco in Flight
+      image: 'images/portfolio/blender-poco.png'
       url: https://gohugo.io
       description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
 
-    - name: Hugo Themes
-      image: 'images/portfolio/hugothemes.png'
+    - name: Cogno React App
+      image: 'images/portfolio/javascript-cogno.png'
       url: https://gohugo.io
       description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
 
-    - name: Just A Design
-      image: 'images/portfolio/design.png'
+    - name: Colorized WWI Soldiers
+      image: 'images/portfolio/gimp-wwi-soldiers.png'
+      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+
+    - name: TTT Nerf Cards
+      image: 'images/portfolio/gimp-ttt-cards.png'
+      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+
+    - name: WindowsXP Virtual Desktop
+      image: 'images/portfolio/network-windowsxp-vm.png'
       description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
