@@ -134,10 +134,18 @@ portfolio:
       image: 'images/portfolio/gimp-wwi-soldiers.png'
       description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
 
-    - name: TTT Nerf Cards
-      image: 'images/portfolio/gimp-ttt-cards.png'
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
-
     - name: WindowsXP Virtual Desktop
       image: 'images/portfolio/network-windowsxp-vm.png'
+      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+    
+    - name: AMD Ryzen System Build
+      image: 'images/portfolio/system-corsair460x.png'
+      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+
+    - name: Diskmini System Build
+      image: 'images/portfolio/system-asrockdeskmini.png'
+      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+
+    - name: Intel System Build
+      image: 'images/portfolio/system-diypc.png'
       description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
