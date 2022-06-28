@@ -19,9 +19,9 @@ about:
   enable: true
   image: 'images/profile.jpg'
   title: 'THIS IS ME'
-  content: Hi, thank you for taking a look around my site. If you have any questions feel free to reach out on [LinkedIn, Github, or by email](#contact)!
+  content: Hi, thank you for taking a look around my site. If you have any questions feel free to reach out on [Github or by email](#contact)!
   button:
-    enable: true
+    enable: false
     label: 'DOWNLOAD MY RESUME'
     link: #
     icon: 'fa-download'
@@ -111,6 +111,10 @@ funfacts:
       image: 'images/icons/system.png'
       count: '7'
 
+    - name: 'NETWORKS DEPOLYED'
+      image: 'images/icons/network.png'
+      count: '1'
+
     - name: 'USELESS ROW OF ICONS'
       image: 'images/icons/happy.png'
       count: '1'
@@ -122,30 +126,40 @@ portfolio:
   portfolio_list:
     - name: Poco in Flight
       image: 'images/portfolio/blender-poco.png'
-      url: https://gohugo.io
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+      #url: https://gohugo.io
+      description: My best piece of Blender art ever. This model took months to create and is still incomplete. It depicts a Poco, a single pilot starfighter from Brandon Sanderson's Skyward series, crusing through space against a backdrop of stars.
 
     - name: Cogno React App
       image: 'images/portfolio/javascript-cogno.png'
-      url: https://gohugo.io
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+      #url: https://gohugo.io
+      description: Cogno is a memorization program that hides the text until the correct key is pressed to reveal the next word. The original Cogno was written for MS-Dos so I decided to re-write it as a web application using React.
 
-    - name: Colorized WWI Soldiers
-      image: 'images/portfolio/gimp-wwi-soldiers.png'
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
 
     - name: WindowsXP Virtual Desktop
       image: 'images/portfolio/network-windowsxp-vm.png'
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
-    
-    - name: AMD Ryzen System Build
+      description: A lot of homelab projects take a solution, and try to find a problem for them. This project did the opposite, taking the problem of an old, slowly dying laptop with irreplaceable software and found a solution. The solution turned out to be virtualization. First, I used Clonezilla to mirror the old hard drive onto the virtual machine's hard drive. Second, Windows XP wouldn't boot (not unexpected) because it required all new drivers. After repairing Windows with the installation CD, Windows booted - Yay! Then I installed Spice which allows the desktop of the VM to be accessed over the network. Spice also includes other quality of life improvements such as drag and drop file sharing. This took much longer than anticipated because of a conflict between a certain version of the Spice drivers and another driver. The next step involved the Windows XP activation service, which required re-activation after such a drastic hardware change. After I solved that problem, it finally worked as expected, allowing anyone with LAN access to run 23 year old software on any computer.
+
+    - name: Small Business Network
+      image: 'images/portfolio/network-deployment.png'
+      description: This project stands apart for its day-to-day importance. It is essential infrastructure that I designed to be as reliable and easy to maintain as possible. This is manifest in the network architecture as well as the individual appliances. The network is architected to include four different vlans; one for management, one for payment processors, one for office computers and printers, and one for the guests. This separation has a couple of advantages. First, it is more secure. Like watertight compartments in a boat if one section gets compromised the uncompromised sections can continue to function. Second, vlans allow fine control over the various sections of the network. For instance, on a guest network individual devices should be isolated but on an office network the clients must be allowed to communicate. The individual appliances are a PfSense router and an EnGenius switch and access point. My decision to us PfSense as the router software granted me flexibility in both hardware choice and software configuration. As far as the switch and access point go, I did not want to use Ubiquity so in my search for other optons I found that EnGenius had a small 8 port managed poE switch that fit my needs perfectly. I went with the EnGenius which has the added benefit of controlling the access point which means only one configuration file to backup for the AP and the switch.
+
+    - name: Ryzen System Build
       image: 'images/portfolio/system-corsair460x.png'
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+      description: I built my first watercooled computer in this case. After a few years, I upgraded to a larger one, and sold this case with a new gaming computer inside it. The picture doesn't do it justice, but it's one of the cleanest builds I have ever done. It's specs include a Ryzen 1700, an AsRock B450m Pro4 motherboard, GTX 1070, 16GB Ram, 512GB M.2 SSD, and a 600W Thermaltake power supply.
 
     - name: Diskmini System Build
       image: 'images/portfolio/system-asrockdeskmini.png'
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+      description: This is the first system that I went all out on aesthetics with. It is designed to be a small, efficient, linux-based, media computer. It is desiged to use a large display so that multiple people can enjoy the media that is stored on a local server. This includes videos, music, games, audio books, and sometimes even code. It's specs include a Ryzen 2400G apu, an AsRock Deskmini x300 chassis, 16GB of ram, and a 250GB M.2 ssd.
 
     - name: Intel System Build
       image: 'images/portfolio/system-diypc.png'
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+      description: This is a gaming system I built a few years ago. The client was quite happy with it and the only problems he had involved a usb wifi adapter. It's specs include an Intel core i5 10400, a Gigabyte B460 motherboard, 16GB ram, RTX 2060 graphics card, 1TB hard drive, 500GB M.2 ssd, and a 500W EVGA power supply.
+
+    - name: Virtualization Server
+      image: 'images/portfolio/system-server.png'
+      description: This is a small 4U Rackmount server designed originally to run TrueNas Core, but after I found out the limitations of running virtual machines and other services on TrueNas, I switched to running Proxmox. It is currently running TrueNas, PiHole, Booksonic, and a handful of other services. It's specs include a Ryzen 2700x, 64GB ECC Memory, AsRock x470D4U motherboard, four 6tb WD Red plus hard drives, two Intel p660 NVME ssds, a 16GB optane drive, and a 430W EVGA power supply.
+
+    - name: Colorized WWI Soldiers
+      image: 'images/portfolio/gimp-wwi-soldiers.png'
+      description: Something about old photos grabs attention, perhaps it is care that each photograph shows in its lighting and composition, or perhaps the bad photos have been filtered out by time. Whatever the case, few things bring history alive like an old photo. Within that subset of exposed history there is a niche even smaller that takes these crystilized slices of time and adds even more vibrancy through colorization. This process does not require expensive tools. Using a program such as Gimp anyone can do it. It can be tedious, but I have found that it can also be quite relaxing.
+
