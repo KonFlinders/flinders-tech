@@ -127,7 +127,7 @@ portfolio:
 
     - name: Cogno React App
       image: 'images/portfolio/javascript-cogno.png'
-      #url: https://gohugo.io
+      url: https://cogno.flinders.tech
       description: Cogno is a memorization program that hides the next word until the correct key is pressed. The original Cogno was written for MS-DOS so I decided to rewrite it as a web application using React.
 
 
