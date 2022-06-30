@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = 'http://flinders.tech/'
+baseURL = 'https://www.flinders.tech/'
 languageCode = 'en-us'
 title = 'Flinders'
 
@@ -60,7 +60,7 @@ copyright = "Copyright Kon Flinders &copy;"
 description = "Personal Portfolio"
 author = "Kon Flinders"
 favicon = "images/favicon.png"
-google_analytics = "G-ABCDEFG123"
+#google_analytics = "G-ABCDEFG123"
 
 
 # Preloader

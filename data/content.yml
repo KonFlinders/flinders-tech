@@ -111,7 +111,7 @@ funfacts:
       image: 'images/icons/system.png'
       count: '7'
 
-    - name: 'NETWORKS DEPOLYED'
+    - name: 'NETWORKS DEPLOYED'
       image: 'images/icons/network.png'
       count: '1'
 
