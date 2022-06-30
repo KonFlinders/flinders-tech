@@ -39,17 +39,17 @@ experience:
     - name: Tech Guy
       company: Freelance
       duration: '2017-Current'
-      content: Hi, Flinders speaking... Did you try turning it off and on again? - mhmm - Oh, you're running Windows; Did you try holding the power button for at least 15 seconds? It's working again? that's great. Nope - it was no problem at all, take care, bye.
+      content: Hi, Flinders speaking. What's your emergency... Did you try turning it off and on again? Mhmm... oh, you're running Windows. Did you try holding the power button for at least 15 seconds? It's working again? That's great... Nope, no problem at all. Have a great day!
 
-    - name: Plumber
+    - name: Plumber's Apprentice
       company: Pleasant Valley Plumbing
       duration: '2016-2021'
-      content: Little room for error, lots of room for failure, Lots of chances to learn attention to detail, carefulness, and Sherlock Holmes levels of deduction... where on earth is that blasted leak coming from anyway?!
+      content: Plumbing - a stressful job with lots of room for failure and lots of chances to learn attention to detail, carefulness, and Sherlock Holmes levels of deduction... Where on earth is that blasted leak coming from anyway?!
 
     - name: Landscaper
       company: Freelance
       duration: '2015-2018'
-      content: You know - mowing, weeding, sweating, bleeding. Actually, it's not that bad, never boring, often relaxing, unless of course, its springtime, your still in school, the grass is growing like wildfire, and your mower is broken.
+      content: You know - mowing, weeding, sweating, bleeding. Actually, I found it to be somewhat relaxing. Unless, of course, it's springtime, the grass is growing like wildfire, and your mower is broken.
 
     - name: Official Student
       company: Homeschool, Private School, Community College
@@ -57,12 +57,12 @@ experience:
       content: Three schools, three philosophies, lots of learning.
 
     - name: Machinist
-      company: Beginnings Technology Inc
+      company: Beginnings Technology Inc.
       duration: '2012-2014'
-      content: When simple prototypes need to be machined a young person with young eyes and little to do over the summer is a great choice.
+      content: When simple prototypes need to be machined, a young person with young eyes and little to do over the summer is a great choice.
 
     - name: PCB Assembler
-      company: Beginnings Technology Inc
+      company: Beginnings Technology Inc.
       duration: '2012-2013'
       content: The above applies to assembling PCB prototypes as well.
 
@@ -115,10 +115,6 @@ funfacts:
       image: 'images/icons/network.png'
       count: '1'
 
-    - name: 'USELESS ROW OF ICONS'
-      image: 'images/icons/happy.png'
-      count: '1'
-
 ############################# portfolio ################################
 portfolio:
   enable: true
@@ -127,39 +123,39 @@ portfolio:
     - name: Poco in Flight
       image: 'images/portfolio/blender-poco.png'
       #url: https://gohugo.io
-      description: My best piece of Blender art ever. This model took months to create and is still incomplete. It depicts a Poco, a single pilot starfighter from Brandon Sanderson's Skyward series, crusing through space against a backdrop of stars.
+      description: My best piece of Blender art ever. This model took months to create and is still incomplete. It depicts a Poco - a single pilot starfighter from Brandon Sanderson's Skyward series - cruising through space against a backdrop of stars.
 
     - name: Cogno React App
       image: 'images/portfolio/javascript-cogno.png'
       #url: https://gohugo.io
-      description: Cogno is a memorization program that hides the text until the correct key is pressed to reveal the next word. The original Cogno was written for MS-Dos so I decided to re-write it as a web application using React.
+      description: Cogno is a memorization program that hides the next word until the correct key is pressed. The original Cogno was written for MS-DOS so I decided to rewrite it as a web application using React.
 
 
     - name: WindowsXP Virtual Desktop
       image: 'images/portfolio/network-windowsxp-vm.png'
-      description: A lot of homelab projects take a solution, and try to find a problem for them. This project did the opposite, taking the problem of an old, slowly dying laptop with irreplaceable software and found a solution. The solution turned out to be virtualization. First, I used Clonezilla to mirror the old hard drive onto the virtual machine's hard drive. Second, Windows XP wouldn't boot (not unexpected) because it required all new drivers. After repairing Windows with the installation CD, Windows booted - Yay! Then I installed Spice which allows the desktop of the VM to be accessed over the network. Spice also includes other quality of life improvements such as drag and drop file sharing. This took much longer than anticipated because of a conflict between a certain version of the Spice drivers and another driver. The next step involved the Windows XP activation service, which required re-activation after such a drastic hardware change. After I solved that problem, it finally worked as expected, allowing anyone with LAN access to run 23 year old software on any computer.
+      description: "A lot of homelab projects start with a solution and try to find a problem. This project is the opposite. It takes the problem of an old, slowly dying laptop with irreplaceable software and finds a solution: virtualization. First, I used Clonezilla to mirror the old hard drive onto the virtual machine's hard drive. Second, Windows XP wouldn't boot (not unexpected) because it required all new drivers. After repairing Windows with the installation CD, Windows booted. Yay! Then I installed Spice which allows the desktop of the VM to be accessed over the network. Spice also includes other quality of life improvements such as drag and drop file sharing. This took much longer than anticipated because of a conflict between one version of the Spice drivers and a different driver. The next step involved the Windows XP activation service, which required re-activation after such a drastic hardware change. After I solved that problem, it worked as expected, allowing anyone with LAN access to run 23 year old software on any computer."
 
     - name: Small Business Network
       image: 'images/portfolio/network-deployment.png'
-      description: This project stands apart for its day-to-day importance. It is essential infrastructure that I designed to be as reliable and easy to maintain as possible. This is manifest in the network architecture as well as the individual appliances. The network is architected to include four different vlans; one for management, one for payment processors, one for office computers and printers, and one for the guests. This separation has a couple of advantages. First, it is more secure. Like watertight compartments in a boat if one section gets compromised the uncompromised sections can continue to function. Second, vlans allow fine control over the various sections of the network. For instance, on a guest network individual devices should be isolated but on an office network the clients must be allowed to communicate. The individual appliances are a PfSense router and an EnGenius switch and access point. My decision to us PfSense as the router software granted me flexibility in both hardware choice and software configuration. As far as the switch and access point go, I did not want to use Ubiquity so in my search for other optons I found that EnGenius had a small 8 port managed poE switch that fit my needs perfectly. I went with the EnGenius which has the added benefit of controlling the access point which means only one configuration file to backup for the AP and the switch.
+      description: "This project shines for its reliability and ease of maintainance. This is manifest in two concepts: (1) the network architecture and (2) the individual appliances. (1) The network is architected to include four different VLANS; one for management, one for payment processors, one for office computers and printers, and one for the guests. This separation has a couple of advantages. First, it is more secure. Like watertight compartments in a boat, if one section gets compromised, the uncompromised sections can continue to function. Second, VLANS allow fine control over the various sections of the network. For instance, the individual devices on a guest network should be isolated. On an office network, however, the clients must be allowed to communicate. (2) The individual appliances are a PfSense router, an EnGenius switch and an EnGenius access point. My decision to use PfSense as the router software grants me flexibility in both hardware choice and software configuration. As far as the switch and access point go, I did not want to use Ubiquity. In my search for other options, I found that EnGenius has a small 8-port managed poE switch that fits my needs perfectly. I went with the EnGenius which also controls the access point meaning only one configuration file to backup."
 
     - name: Ryzen System Build
       image: 'images/portfolio/system-corsair460x.png'
-      description: I built my first watercooled computer in this case. After a few years, I upgraded to a larger one, and sold this case with a new gaming computer inside it. The picture doesn't do it justice, but it's one of the cleanest builds I have ever done. It's specs include a Ryzen 1700, an AsRock B450m Pro4 motherboard, GTX 1070, 16GB Ram, 512GB M.2 SSD, and a 600W Thermaltake power supply.
+      description: I built my first watercooled computer in this case. After a few years, I upgraded to a larger one, and sold this case with a new gaming computer inside it. The picture doesn't do it justice, but it's one of the cleanest builds I have ever done. Its specs include a Ryzen 1700, an AsRock B450m Pro4 motherboard, GTX 1070, 16GB Ram, 512GB M.2 SSD, and a 600W Thermaltake power supply.
 
     - name: Diskmini System Build
       image: 'images/portfolio/system-asrockdeskmini.png'
-      description: This is the first system that I went all out on aesthetics with. It is designed to be a small, efficient, linux-based, media computer. It is desiged to use a large display so that multiple people can enjoy the media that is stored on a local server. This includes videos, music, games, audio books, and sometimes even code. It's specs include a Ryzen 2400G apu, an AsRock Deskmini x300 chassis, 16GB of ram, and a 250GB M.2 ssd.
+      description: This is the first system that I went all out on aesthetics with. It is designed to be a small, efficient, linux-based, media computer. This includes videos, music, games, audio books, and sometimes even code. Its specs include a Ryzen 2400G apu, an AsRock Deskmini x300 chassis, 16GB of ram, and a 250GB M.2 ssd.
 
     - name: Intel System Build
       image: 'images/portfolio/system-diypc.png'
-      description: This is a gaming system I built a few years ago. The client was quite happy with it and the only problems he had involved a usb wifi adapter. It's specs include an Intel core i5 10400, a Gigabyte B460 motherboard, 16GB ram, RTX 2060 graphics card, 1TB hard drive, 500GB M.2 ssd, and a 500W EVGA power supply.
+      description: This is a gaming system I built a few years ago. The client was quite happy with it and the only problem he had involved a usb wifi adapter. Its specs include an Intel core i5 10400, a Gigabyte B460 motherboard, 16GB ram, RTX 2060 graphics card, 1TB hard drive, 500GB M.2 ssd, and a 500W EVGA power supply.
 
     - name: Virtualization Server
       image: 'images/portfolio/system-server.png'
-      description: This is a small 4U Rackmount server designed originally to run TrueNas Core, but after I found out the limitations of running virtual machines and other services on TrueNas, I switched to running Proxmox. It is currently running TrueNas, PiHole, Booksonic, and a handful of other services. It's specs include a Ryzen 2700x, 64GB ECC Memory, AsRock x470D4U motherboard, four 6tb WD Red plus hard drives, two Intel p660 NVME ssds, a 16GB optane drive, and a 430W EVGA power supply.
+      description: I orignally designed this rackmount server to run TrueNas Core. After I recognized the limitations of running virtual machines and other services on TrueNas, I switched to running Proxmox. It is currently running TrueNas, PiHole, Booksonic and a handful of other services. Its specs include a Ryzen 2700x, 64GB ECC Memory, AsRock x470D4U motherboard, four 6tb WD Red plus hard drives, two Intel p660 NVME ssds, a 16GB optane drive and a 430W EVGA power supply.
 
     - name: Colorized WWI Soldiers
       image: 'images/portfolio/gimp-wwi-soldiers.png'
-      description: Something about old photos grabs attention, perhaps it is care that each photograph shows in its lighting and composition, or perhaps the bad photos have been filtered out by time. Whatever the case, few things bring history alive like an old photo. Within that subset of exposed history there is a niche even smaller that takes these crystilized slices of time and adds even more vibrancy through colorization. This process does not require expensive tools. Using a program such as Gimp anyone can do it. It can be tedious, but I have found that it can also be quite relaxing.
+      description: Something about old photos grabs attention. Perhaps it is the care that each photograph shows in its lighting and composition, or perhaps time simply filters out the bad ones. Whatever the case, few things bring history alive like an old photo. Within that subset of historical snapshots, a niche even smaller takes these crystilized slices of time and adds more vibrancy through colorization. This process does not require expensive tools. Using a program such as Gimp anyone can do it. It can be tedious, but it can also be quite relaxing.
 
